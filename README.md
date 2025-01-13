@@ -163,3 +163,78 @@ ls, ls -la , ls -a ,ls ~.
 - Crie um link simbólico chamado meu_link que aponte para o arquivo home.html.
 3. Cron Jobs:
 - Agende uma tarefa para criar um arquivo chamado log.txt no diretório /tmp todos os dias ás 10h.
+
+# 1. Navegação e Estruturas de Diretórios
+**1. Verifique o diretório atual:**
+- Use o comando adequado para descobrir em qual diretório você esta.
+- Em seguida, vá para o diretório /home e depois retorne ao diretório anterior.
+
+**2. Explore o sistema de arquivos:**
+- Liste os arquivos e diretórios no caminho **/etc.**
+- Identifique quantos arquivos e subdiretórios existem nesse diretório.
+
+**3. Vá para a raiz do sistema:**
+- Navegue até o diretório raiz / e explore a estrutura listando seu conteúdo.
+
+**4. Use caminhos reelativos e absolutos:**
+- Navegue até o diretório /var/log usando um caminho absoluto.
+- Retorne ao seu diretório inicial usando um caminho relativo.
+
+
+# 2. Exibir Conteúdo de Arquivos
+**1. Leia  o conteúdo de um arquivo:**
+- Encontre o arquivo /etc/os-release e exiba seu conteúdo usando os comandos:
+  -cat (todo o conteúdo).
+  -less (para navegação).
+  - head (primeira 5 linhas).
+  - tail (última 5 linhas).
+
+**2. Examine um arquivo longo:**
+- Use less para navegar pelo arquivo /var/log/syslog (ou equivalente no seu sistema).
+- Encontre uma palvra-chave no arquivo usando /palavra-chave.
+
+# 3. Copiar, Mover e Removeer Arquivos
+**1. Copiar arquivos**
+- Copie o arquivo /etc/hosts/ para o seu diretório inicial.
+- Verifique se a cópia foi bem-sucedida listando os arquivos no seu diretório inicial.
+
+**2. Mover arquivos**
+- Mova o arquivo copiado anteriormente para um novo diretório chamado backup, dentro do seu diretório inicial.
+- Crie um diretório backup antes de mover o arquivo.
+
+**3. Remover arquivos e diretórios:**
+- Apague o arquivo dentro do diretório backup.
+- Depois, remova o próprio diretório backup.
+
+# 4. Verificar o Uso do Sistema de Arquivos
+**1. Checar espaço em disco:**
+- Use o comando df -h para verificar o espaço usado e disponível nos sistemas de arquivos.
+- Identifique qual partição possui mais espaço disponível.
+
+**2. Verificar uso de diretório específico:**
+- Use o comando du para calcular o espaço usado pelo diretório /var.
+- Encontre o subdiretório dentro de /var que consome mais espaço.
+
+**3. Verificar inodes disponíveis:**
+- Liste a quantidade de inodes disponíveis no sistema usando o comando adequado (df -i).
+
+
+# 5. Desafios Combinados
+**1. Criação e manipulação de estrutura de diretórios:**
+- Crie um diretório chamado projeto no seu diretório inicial.
+- Dentro de projeto, crie um subdiretório documentos e imagens.
+- Copie um arquivo de /etc para o subdiretório documentos.
+- Mova o arquivo copiado para o subdiretório imagens.
+- Remova o diretório documentos.
+
+**2. Analisando arquivos de log:**
+- Exiba as últimas 10 linhas de arquivos /var/log/syslog.
+- Monitore continuamente as novas linhas que são adicionadas ao arquivo usando tail -f.
+
+**3. Espaço total usando por arquivos de texto:**
+- Calcule o espaço total usado por arquivos com extensão .txt no diretório /home ou outro de sua escolha.
+
+
+
+
+
