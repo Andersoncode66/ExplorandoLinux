@@ -61,7 +61,7 @@ Tarefa:
 - Listee os arquivos do diretório /var com permissões detalhadas.
 - Verifique se existem arquivos ou diretórios com permissões de execução.
 ### Resposta
-1. ls -la /var
+1. ls -l /var
 2. ls -l /var | grep 'x'
 
 ## 8. Localizando Diretórios
