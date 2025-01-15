@@ -181,7 +181,7 @@ ls, ls -la , ls -a ,ls ~.
 - Retorne ao seu diretório inicial usando um caminho relativo.
 
 
-# 2. Exibir Conteúdo de Arquivos
+## 2. Exibir Conteúdo de Arquivos
 **1. Leia  o conteúdo de um arquivo:**
 - Encontre o arquivo /etc/os-release e exiba seu conteúdo usando os comandos:
   -cat (todo o conteúdo).
@@ -193,7 +193,7 @@ ls, ls -la , ls -a ,ls ~.
 - Use less para navegar pelo arquivo /var/log/syslog (ou equivalente no seu sistema).
 - Encontre uma palvra-chave no arquivo usando /palavra-chave.
 
-# 3. Copiar, Mover e Removeer Arquivos
+## 3. Copiar, Mover e Removeer Arquivos
 **1. Copiar arquivos**
 - Copie o arquivo /etc/hosts/ para o seu diretório inicial.
 - Verifique se a cópia foi bem-sucedida listando os arquivos no seu diretório inicial.
@@ -206,7 +206,7 @@ ls, ls -la , ls -a ,ls ~.
 - Apague o arquivo dentro do diretório backup.
 - Depois, remova o próprio diretório backup.
 
-# 4. Verificar o Uso do Sistema de Arquivos
+## 4. Verificar o Uso do Sistema de Arquivos
 **1. Checar espaço em disco:**
 - Use o comando df -h para verificar o espaço usado e disponível nos sistemas de arquivos.
 - Identifique qual partição possui mais espaço disponível.
@@ -219,7 +219,7 @@ ls, ls -la , ls -a ,ls ~.
 - Liste a quantidade de inodes disponíveis no sistema usando o comando adequado (df -i).
 
 
-# 5. Desafios Combinados
+## 5. Desafios Combinados
 **1. Criação e manipulação de estrutura de diretórios:**
 - Crie um diretório chamado projeto no seu diretório inicial.
 - Dentro de projeto, crie um subdiretório documentos e imagens.
