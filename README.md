@@ -235,6 +235,26 @@ ls, ls -la , ls -a ,ls ~.
 - Calcule o espaço total usado por arquivos com extensão .txt no diretório /home ou outro de sua escolha.
 
 
+## 6. Explorando permissões de arquivos
+**1. Liste os arquivos e diretórios no caminho /home usando o comando ls -l.**
+- Identifique os arquivos que possuem permissões de leitura, mas não de escrita, para o proprietário.
+- Modifique as permissões de um arquivo específico para permitir escrita apenas para o proprietário.
+
+## 7. Filtrando arquivos por tipo ou extensão
+- Liste todos os arquivos no diretório /etc que terminam com .conf.
+- Crie um diretório chamado configurações no seu diretório incial e copie todos esses arquivos .conf para lá.
+
+## 8. Verificar arquivos ocultos
+- Liste todos os arquivos ocultos (aqueles que começam com .) no diretório raiz /.
+- Copie um desses arquivos para o seu diretório inicial, renomeando-o para .backup.
+
+## 9. Manipulação de arquivos grandes
+- Use o comando split para dividir o arquivo /var/log/syslog (ou equivalente) em arquivos menores de 100 linhas cada.
+- Certifique-se de que os arquivos criados estão no seu diretório inicial.
+
+## 10. Localizando e manipulando arquivos específicos
+- Use o comando find para localizar todos os arquivos no diretório /var que foram modificados nos últimos 7 dis.
+- Para cada arquivo encontrado, exiba suas permissões completas usando ls -l.
 
 
 
